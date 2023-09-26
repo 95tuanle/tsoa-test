@@ -1,0 +1,22 @@
+{
+  "name": "tsoa-test",
+  "version": "1.0.0",
+  "author": "Tuan Le <tlna95@icloud.com>",
+  "license": "MIT",
+  "main": "build/src/server.js",
+  "scripts": {
+    "build": "tsoa spec-and-routes && tsc",
+    "start": "node build/src/server.js",
+    "dev": "nodemon --exec 'node_modules/.bin/ts-node' src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "tsoa": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.7.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
