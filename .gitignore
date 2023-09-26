@@ -63,3 +63,6 @@ typings/
 # Editor directories and files
 .idea
 .vscode
+
+# Production build
+build

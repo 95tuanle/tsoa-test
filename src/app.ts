@@ -1,6 +1,6 @@
 // src/app.ts
 import express, {json, urlencoded} from "express";
-import { RegisterRoutes } from "../build/routes";
+import {RegisterRoutes} from "../build/routes";
 
 export const app = express();
 
