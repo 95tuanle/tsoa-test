@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsoa spec-and-routes && tsc",
     "start": "node build/src/server.js",
-    "dev": "tsoa spec-and-routes && tsc && node build/src/server.js"
+    "dev": "npm run build && npm run start"
   },
   "dependencies": {
     "express": "^4.18.2",
