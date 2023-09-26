@@ -1,14 +1,10 @@
 // src/users/usersController.ts
-import {Body, Controller, Get, Path, Post, Query, Route, SuccessResponse,} from "tsoa";
+import {Body, Controller, Get, Path, Post, Query, Route, SuccessResponse} from "tsoa";
 import {User} from "./user";
 import {UserCreationParams, UsersService} from "./usersService";
 
 @Route("users")
 export class UsersController extends Controller {
-    @Get()
-    public async getUsers() {
-        return "Hello World";
-    }
 
     @Get("{userId}")
     public async getUser(
