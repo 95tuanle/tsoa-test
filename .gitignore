@@ -66,3 +66,9 @@ typings/
 
 # Production build
 build
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
