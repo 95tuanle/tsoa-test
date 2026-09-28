@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "express": "^5.2.1",
-    "tsoa": "^5.1.1"
+    "tsoa": "^6.6.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
